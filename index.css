@@ -1,0 +1,119 @@
+.name {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: #4A90E2; 
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        margin: 0 auto;
+        }
+/* Загальні стилі для таблиці */
+.tasks-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для заголовків таблиці */
+.tasks-table th {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Стилі для клітинок таблиці */
+.tasks-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Стилі для кнопок */
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+button:active {
+    background-color: #2A66A6;
+}
+.btn-task-6-1{
+    margin-bottom: 10px;
+}
+/* Стилі для рядків таблиці при наведенні */
+.tasks-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+/* Стилі для заголовка таблиці */
+.tasks-table th:first-child {
+    width: 70%;
+}
+
+/* Стилі для другого стовпця таблиці */
+.tasks-table td:nth-child(2) {
+    text-align: center;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
